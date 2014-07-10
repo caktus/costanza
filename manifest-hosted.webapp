@@ -1,0 +1,28 @@
+{
+  "version": "1",
+  "name": "Constanza",
+  "launch_path": "/constanza/index.html",
+  "description": "Constanza Voice Recorder App",
+  "icons": {
+    "16": "/constanza/images/logo16.png",
+    "32": "/constanza/images/logo32.png",
+    "48": "/constanza/images/logo48.png",
+    "60": "/constanza/images/logo60.png",
+    "64": "/constanza/images/logo64.png",
+    "90": "/constanza/images/logo90.png",
+    "120": "/constanza/images/logo120.png",
+    "128": "/constanza/images/logo128.png"
+  },
+  "developer": {
+    "name": "Caktus Group",
+    "url": "http://caktusgroup.com"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+  }
+}
