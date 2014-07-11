@@ -18,6 +18,7 @@
     "*"
   ],
   "default_locale": "en",
+  "type": "privileged",
   "permissions": {
     "audio-capture": {
       "description": "To record audio"
