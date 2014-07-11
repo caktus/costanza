@@ -38,9 +38,3 @@ if (reload) {
         location.reload(true);
     };
 }
-
-// Compatibility Code
-navigator.getUserMedia = (navigator.getUserMedia ||
-                       navigator.webkitGetUserMedia ||
-                       navigator.mozGetUserMedia ||
-                       navigator.msGetUserMedia);

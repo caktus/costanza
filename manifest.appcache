@@ -5,6 +5,7 @@ index.html
 css/base.css
 js/base.js
 js/webapp.js
+js/recorder.js
 js/offline.js
 
 NETWORK:
