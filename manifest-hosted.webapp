@@ -22,6 +22,12 @@
   ],
   "default_locale": "en",
   "permissions": {
+    "audio-capture": {
+      "description": "To record audio"
+    },
+    "audio-channel-normal": {
+      "description": "To playback recordings"
+    }
   },
   "locales": {
   }
