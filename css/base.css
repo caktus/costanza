@@ -71,34 +71,14 @@ header.show-install h1 {
     max-width: 100%;
 }
 
-#log-visibility-display,
-#image-presenter,
-#connection-display,
-#geolocation-display,
-#battery-display,
-#ambient-light-display,
-#proximity-display,
-#user-proximity-display,
-#device-orientation-display {
-    display: none;
-    margin-bottom: 10px;
-}
-
-#cross-domain-xhr-display,
-#device-storage-pictures-display,
-#get-all-contacts-display {
-    display: none;
-    margin-bottom: 10px;   
-}
-
 #main button {
-    display: inline-block;
+    display: block;
     width: 49%;
     vertical-align: top;
     margin: 0 auto 2rem;
 }
 
-#image-to-share {
+#main #playback {
     display: none;
 }
 
