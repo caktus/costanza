@@ -1,0 +1,9 @@
+{
+    "name": "Costanza",
+    "package_path" : "http://caktus.github.io/costanza/install/package.zip",
+    "version": "1",
+    "developer": {
+        "name": "Caktus Group",
+        "url": "http://caktusgroup.com"
+    }
+}
