@@ -59,6 +59,7 @@ header h1 {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-size: 18px;
 }
 
 #online-status {
@@ -91,6 +92,7 @@ header h1 {
 #main button {
     display: block;
     width: 49%;
+    padding: 1em 0;
     vertical-align: top;
     margin: 0 auto 2rem;
 }

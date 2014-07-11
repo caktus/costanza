@@ -2,11 +2,8 @@ CACHE MANIFEST
 # Version 0.6799999
 
 index.html
-css/base.css
-js/base.js
-js/webapp.js
-js/recorder.js
-js/offline.js
+css/app.min.css
+js/app.min.js
 
 NETWORK:
 *
