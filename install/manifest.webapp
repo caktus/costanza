@@ -1,9 +1,33 @@
 {
-    "name": "Costanza",
-    "package_path" : "http://caktus.github.io/costanza/install/package.zip",
-    "version": "1",
-    "developer": {
-        "name": "Caktus Group",
-        "url": "http://caktusgroup.com"
+  "version": "1",
+  "name": "Costanza",
+  "launch_path": "/index.html",
+  "package_path" : "http://caktus.github.io/costanza/install/package.zip",
+  "description": "Costanza Voice Recorder App",
+  "icons": {
+    "16": "/images/logo16.png",
+    "32": "/images/logo32.png",
+    "48": "/images/logo48.png",
+    "64": "/images/logo64.png",
+    "128": "/images/logo128.png"
+  },
+  "developer": {
+    "name": "Caktus Group",
+    "url": "http://caktusgroup.com"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "type": "privileged",
+  "permissions": {
+    "audio-capture": {
+      "description": "To record audio"
+    },
+    "audio-channel-normal": {
+      "description": "To playback recordings"
     }
+  },
+  "locales": {
+  }
 }
