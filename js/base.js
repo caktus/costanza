@@ -6,15 +6,13 @@ if (navigator.mozApps) {
     checkIfInstalled.onsuccess = function () {
         if (checkIfInstalled.result) {
             // Already installed
-            var installationInstructions = document.querySelector("#installation-instructions");
-            if (installationInstructions) {
-                installationInstructions.style.display = "none";
-            }
         }
         else {
             var install = document.querySelector("#install"),
-                manifestURL = location.href.substring(0, location.href.lastIndexOf("/")) + "/manifest-hosted.webapp";
+                manifestURL = location.href.substring(0, location.href.lastIndexOf("/")) + "/manifest-hosted.webapp",
+                installationInstructions = document.querySelector("#installation-instructions");
             install.className = "show-install";
+            installationInstructions.className = "show-install";
             install.onclick = function () {
                 var installApp = navigator.mozApps.install(manifestURL);
                 installApp.onsuccess = function() {

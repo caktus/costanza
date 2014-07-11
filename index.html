@@ -16,9 +16,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="css/base.css">
-    <link rel="stylesheet" type="text/css" href="css/headers.css">
-    <link rel="stylesheet" type="text/css" href="css/buttons.css">
-    <link rel="stylesheet" type="text/css" href="css/toolbars.css">
     <title>Costanza Sound Recorder</title>
     <base target="_blank">
 </head>
@@ -30,7 +27,7 @@
             <!-- Icon that will indicate whether you are online or offline - enabled if you are using offline/appcache (see above) -->
             <div id="online-status" title="Online"></div>
             <menu type="toolbar">
-                <button id="install"><span class="icon icon-add">add</span></button>
+                <button id="install">Install</button>
             </menu>
             <h1>Costanza</h1>
         </header>
@@ -39,17 +36,15 @@
 
     <div id="main">
 
-        <p id="installation-instructions">Press the + button in the top right corner to install this app.</p>
+        <p id="installation-instructions">Press the button in the top right corner to install this app.</p>
         <button id="playback">Play Recording</button>
         <button id="record-toggle">Start Recording</button>
     </div>
 
     <footer>
-        <div role="toolbar">
-            <ul>
-                <li><button id="reload" class="update">Update</button></li>
-            </ul>
-        </div>
+        <menu role="toolbar">
+            <button id="reload" class="update">Update</button>
+        </menu>
     </footer>
 
     <script type="text/javascript" src="js/base.js"></script>

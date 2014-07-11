@@ -1,4 +1,4 @@
-/* global MozActivity, alert, getUserMedia, document, window, navigator */
+/* global MozActivity, Recorder, document, window, navigator */
 "use strict";
 (function () {
     var toggleButton = document.querySelector("#record-toggle"),
@@ -23,5 +23,4 @@
     playbackButton.onclick = function () {
         recorder.play();
     };
-
 })();

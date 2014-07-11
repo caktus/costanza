@@ -62,6 +62,5 @@ var Recorder = (function () {
         }
     };
 
-
     return Recorder;
 })();
